@@ -1,0 +1,60 @@
+/*Resetar css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 40vw;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.content img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#no{
+    background-color: red;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+#yes{
+    background-color: green;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.7;
+}
+.btn-area{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.body{
+    background-image: https://getwallpapers.com/wallpaper/full/e/e/f/883268-widescreen-flamengo-wallpapers-1920x1080.jpg;
+  }
